@@ -1,6 +1,6 @@
 {
   "name": "@mlnck/me",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal npm card for mlnck (@mlnck)",
   "main": "dist/card.js",
   "unpkg": "index.html",
