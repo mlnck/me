@@ -46,51 +46,66 @@
   },
   "myCard": {
     "info": {
-      "name": "mlnck",
-      "handle": "mlnck",
-      "twitter": "mlnck",
-      "npm": "melnick",
+      "name": "jack.melnick",
+      "handle": "@mlnck",
       "github": "mlnck",
+      "libations": "IPA.Bourbon.Martini[dirty]gin.Merlot",
       "linkedin": "mlnck",
+      "mail": "jmelnick@jmelnick.com",
+      "npm": "melnick",
+      "twitter": "mlnck",
       "web": "http://www.mlnck.me",
+      "wallet": "0xe3dA70A4deBB71d9944753ab119A6F535678F559",
       "work": "devigner"
     },
     "data": [
       "          <white>{{name}}</><green> / </><cyan>{{handle}}</>",
       "",
       {
-        "label": "<blue>Work</>",
+        "label": "<blue>🤓</> ",
         "text": "{{work}}"
+      },
+      {
+        "label": "<blue>💰</> ",
+        "text": "{{wallet}}"
+      },
+      {
+        "label": "<blue>📧</> ",
+        "text": "{{mail}}"
+      },
+      {
+        "label": "<blue>🍻</> ",
+        "text": "{{libations}}"
       },
       "",
       {
-        "label": "Twitter",
+        "label": "🐦 ",
         "text": "https://twitter.com/<cyan>{{twitter}}</>",
         "when": "{{twitter}}"
       },
       {
-        "label": "npm",
+        "label": "<red>🅽</>  ",
         "text": "https://www.npmjs.com/<red>~{{npm}}</>",
         "when": "{{npm}}"
       },
       {
-        "label": "GitHub",
+        "label": "🐙🐱 ",
         "text": "https://github.com/<green>{{github}}</>",
         "when": "{{github}}"
       },
       {
-        "label": "LinkedIn",
+        "label": "🔗 ",
         "text": "https://www.linkedin.com/in/<blue>{{linkedin}}</>",
         "when": "{{linkedin}}"
       },
       {
-        "label": "Web",
+        "label": "🖥  ",
         "text": "<cyan>{{web}}</>",
         "when": "{{web}}"
       },
       "",
       {
-        "label": "Card",
+        "label": "   🏃‍♂️ ",
         "text": "<red>npx</> {{_packageName}}"
       }
     ]
