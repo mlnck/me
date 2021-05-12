@@ -47,9 +47,9 @@
   "myCard": {
     "info": {
       "name": "jack.melnick",
-      "handle": "@mlnck",
+      "handle": "mlnck",
       "github": "mlnck",
-      "libations": "IPA.Bourbon.Martini[dirty]gin.Merlot",
+      "libations": "Bourbon.IPA.Martini[dirty]gin.Merlot",
       "linkedin": "mlnck",
       "mail": "jmelnick@jmelnick.com",
       "npm": "melnick",
@@ -59,7 +59,7 @@
       "work": "devigner"
     },
     "data": [
-      "          <white>{{name}}</><green> / </><cyan>{{handle}}</>",
+      "          <white>{{name}}</><green> / </><cyan>@{{handle}}</>",
       "",
       {
         "label": "<blue>🤓</> ",
