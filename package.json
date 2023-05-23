@@ -1,6 +1,6 @@
 {
   "name": "@mlnck/me",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Personal npm card for mlnck (@mlnck)",
   "main": "dist/card.js",
   "unpkg": "index.html",
@@ -49,6 +49,7 @@
       "name": "jack.melnick",
       "handle": "mlnck",
       "github": "mlnck",
+      "githubdq": "DownQuark-Work",
       "libations": "Bourbon.IPA.Martini[dirty]gin.Merlot",
       "linkedin": "mlnck",
       "mail": "jack.d.melnick@gmail.com",
@@ -92,6 +93,11 @@
         "label": "🐙🐱 ",
         "text": "https://github.com/<green>{{github}}</>",
         "when": "{{github}}"
+      },
+      {
+        "label": "   ",
+        "text": "https://github.com/<green>{{githubdq}}</>",
+        "when": "{{githubdq}}"
       },
       {
         "label": "🔗 ",
